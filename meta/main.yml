@@ -1,0 +1,14 @@
+---
+galaxy_info: 
+  author: André 
+  description: basic files in home
+  company: self
+  license: apache
+  min_ansible_version: 2.2
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  galaxy_tags:
+    - home
+

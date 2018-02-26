@@ -1,0 +1,22 @@
+syn on
+syn enable
+
+set background=light
+
+" config!
+set number
+autocmd BufNewFile,BufRead *.py setlocal colorcolumn=79
+set hidden
+
+set autoindent
+set smartindent
+set smarttab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set expandtab
+
+set list listchars=tab:\ \ ,trail:·   " Display tabs and trailing spaces visually
+set nowrap                            " Don't wrap lines
+
+
